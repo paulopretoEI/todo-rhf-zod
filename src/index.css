@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+}
+
+.todo-card {
+  background: repeating-linear-gradient(
+    -45deg,
+    rgb(204, 179, 179),
+    black,
+    black,
+    black
+  );
+}
+
+.todo-list-container {
+  transition: 0.3s ease; /* This will animate the height change */
+}
